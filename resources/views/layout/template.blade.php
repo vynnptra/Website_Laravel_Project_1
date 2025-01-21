@@ -9,6 +9,7 @@
     <meta content="" name="description">
 
     @include('layout.assets')
+    @livewireStyles
 </head>
 
 <body>
@@ -22,14 +23,11 @@
         <!-- Content Start -->
         <div class="content">
             @include('layout.navbar')
-            @include('layout.card')
+
 
             
-            <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
+ 
                     @yield('content')
-                </div>    
-            </div>
         <!-- Content End -->
 
 
@@ -39,6 +37,7 @@
 
     <!-- JavaScript Libraries -->
     @include('layout.js')
+    @livewireScripts
 </body>
 
 </html>

@@ -18,11 +18,11 @@
             </div>
         </div>
         <div class="navbar-nav w-100">
-            <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-            <a href="widget.html" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Transaction</a>
-            <a href="form.html" class="nav-item nav-link"><i class="fa fa-file-archive me-2"></i>Report</a>
-            <a href="table.html" class="nav-item nav-link"><i class="fa fa-car me-2"></i>Cars</a>
-            <a href="chart.html" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Users</a>
+            <a href="{{ route('home') }}" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="{{ route('transaction') }}" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Transaction</a>
+            <a href="{{ route('report') }}" class="nav-item nav-link"><i class="fa fa-file-archive me-2"></i>Report</a>
+            <a href="{{ route('cars') }}" class="nav-item nav-link"><i class="fa fa-car me-2"></i>Cars</a>
+            <a href="{{ route('users') }}" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Users</a>
         </div>
     </nav>
 </div>
